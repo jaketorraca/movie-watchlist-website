@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Watchlist</title>
-    <link rel="stylesheet" href="styles.css">
-
-
+  <meta charset="UTF-8" />
+  <title>Movie Layout</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Movie Watchlist</h1>
-</header>
+  <main class="page">
+    <header class="topbar">
+      <p class="brand">Movie</p>
+      <p class="search">Search Movies.com</p>
+      <p class="watchlist">Watchlist</p>
+    </header>
 
-<main>
-    <section id="add-movie"
-</main>
+    <section class="content">
+      <section class="main-panel">
+        <section class="hero">
+          <button class="arrow arrow-left">‹</button>
+          <img class="hero-poster" src="images/featured-poster.jpg" alt="Featured movie poster">
+          <button class="arrow arrow-right">›</button>
+        </section>
 
+        <section class="movie-row">
+          <img class="small-poster" src="images/movie-poster.jpg" alt="Movie poster">
+          <section class="movie-info">
+            <p class="title">Movie title<br>★ ★ ★</p>
+          </section>
+        </section>
+      </section>
 
+      <section class="side-panel">
+        <h2>You May Also Enjoy:</h2>
+
+        <section class="rec-item">
+          <img class="thumb" src="images/recommended-1.jpg" alt="Recommended movie poster">
+          <span class="rec-copy">
+            <p class="rec-title">Title<br>★ ★ ★</p>
+          </span>
+        </section>
+
+        <section class="rec-item">
+          <img class="thumb" src="images/recommended-2.jpg" alt="Recommended movie poster">
+          <span class="rec-copy">
+            <p class="rec-title">Title<br>★ ★ ★</p>
+          </span>
+        </section>
+
+        <section class="rec-item">
+          <img class="thumb" src="images/recommended-3.jpg" alt="Recommended movie poster">
+          <span class="rec-copy">
+            <p class="rec-title">Title<br>★ ★ ★</p>
+          </span>
+        </section>
+      </section>
+    </section>
+  </main>
 </body>
 </html>
